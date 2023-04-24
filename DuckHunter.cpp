@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 using namespace std;
@@ -16,11 +16,9 @@ void print_menu(string actions) {
 }
 
 int main() {
-    int choice;
-    cout << "1. Fast writing script for DuckHunter" << endl;
-    cin >> choice;
+    
 
-    if (choice == 1) {
+
         string name;
         cout << "Script name: " << endl;
         cin >> name;
@@ -75,7 +73,8 @@ int main() {
                 std::exit(0);
             }
         }
-    }
+
 
     return 0;
 }
+
